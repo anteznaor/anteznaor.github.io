@@ -502,20 +502,20 @@ $(document).ready(function(){
 	
 	
 	
-	$('.vacature_btn_soliciteren').click(function(){
-		$('html,body').animate({scrollTop: 0},'slow');
-		$('#popup_sollicitatie_h2').html($(this).attr('data-vacature_naam'));
-		$('#vacature_naam').val($(this).attr('data-vacature_naam'));
-		$('#afdeklaag_sollicitatie').css('display','block');
-		$('#afdeklaag_sollicitatie').css('height',($('html body').height())+'px');
-		mar = ($(window).height()-($('#popup_sollicitatie').height()+120))/2;
-		if(mar > 0){
-			$('#popup_sollicitatie').css('marginTop',mar+'px');
-			}
-		$('#afdeklaag_sollicitatie').animate({
-			'opacity':1
-			});
-		});
+	// $('.vacature_btn_soliciteren').click(function(){
+	// 	$('html,body').animate({scrollTop: 0},'slow');
+	// 	$('#popup_sollicitatie_h2').html($(this).attr('data-vacature_naam'));
+	// 	$('#vacature_naam').val($(this).attr('data-vacature_naam'));
+	// 	$('#afdeklaag_sollicitatie').css('display','block');
+	// 	$('#afdeklaag_sollicitatie').css('height',($('html body').height())+'px');
+	// 	mar = ($(window).height()-($('#popup_sollicitatie').height()+120))/2;
+	// 	if(mar > 0){
+	// 		$('#popup_sollicitatie').css('marginTop',mar+'px');
+	// 		}
+	// 	$('#afdeklaag_sollicitatie').animate({
+	// 		'opacity':1
+	// 		});
+	// 	});
 	$('#sluit_popup_sollicitatie').click(function(){
 		$('#afdeklaag_sollicitatie').animate({
 			'opacity':0
