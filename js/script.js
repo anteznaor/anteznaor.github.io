@@ -179,22 +179,7 @@ $(document).ready(function(){
 					},500);	
 				});
 		});
-	
-	$('.vacature_btn_terug').click(function(){
-		$('#vacature_single_blok').animate({
-			'height': '0px'
-			},500,function(){
-				jQuery('html,body').animate({scrollTop: 0},500);
-				$('.vacature_content_blok').css('display','none');
-				})
-		});
-	
-	
-	
-	
-	
-	
-	
+
 	$('#mobile_btn').click(function(event){
 		event.stopPropagation();
 		hi = $('#menu_holder ul').height()+40;
