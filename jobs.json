@@ -6,6 +6,13 @@
       "type": "Fulltime",
       "salary": "€ 4.000 - 6.500",
       "description": "Ben jij de engineer die zowel softwareontwikkeling als infrastructuur aan kan? Dan ben je geschikt voor het High Performance Team van BraveOrange. Wij zijn op zoek naar iemand met een passie voor de hele IT-stack. Dit betekent dat je uitstekende kennis van ten minste één programmeertaal hebt. Daarnaast kun je goed met Linux omgaan en ben je bekend met het inrichten van nieuwe omgevingen. Je hebt kennis van build automation, on-premise en cloud deployments. Ervaring van continous integration (CI) and continous deployment (CD) is een must have."
+    },
+    {
+      "title": "Senior DevFlex Engineer (Java, .NET, DevOps, Full Stack)",
+      "location": "Utrecht, Amsterdam, Den Haag, Rotterdam, Eindhoven, Groningen",
+      "type": "Fulltime",
+      "salary": "€ 6.000 - 12.000",
+      "description": "Ben je al enige tijd werkzaam als IT-consultant en heb je het naar je zin bij de klant? Weet je welk tarief de klant voor je betaalt en wat je aan salaris overhoudt? Voelt het soms dat de beloningconstructie anders kan? Dan willen wij je graag kennis laten maken met het DevFlex model van BraveOrange. Onze medewerkers worden beloond voor het succes dat ze door hun werkzaamheden behalen. Dit betekent dat je 70% van je uurtarief als salaris krijgt uitbetaald. Veelal komt dit neer op een salaris van € 6000 -12000 bruto per maand. Heb je even geen klus, dan krijg je een vergoeding van € 2800 per maand."
     }
   ]
 }
