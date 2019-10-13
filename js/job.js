@@ -6,9 +6,10 @@ String.prototype.interpolate = function (params) {
 
 async function jobs() {
     const language = document.querySelector("html").getAttribute("lang");
-    const jobTemplate = await fetch(`template/${language}/job_template.html`).then(response => response.text());
-    const jobTileTemplate = await fetch(`template/${language}/job_tile_template.html`).then(response => response.text());
-    const jobData = await fetch("jobs.json").then(response => response.json());
+    const prefix = language === "en" ? "" : "../";
+    const jobTemplate = await fetch(`${prefix}template/${language}/job_template.html`).then(response => response.text());
+    const jobTileTemplate = await fetch(`${prefix}template/${language}/job_tile_template.html`).then(response => response.text());
+    const jobData = await fetch(`${prefix}jobs.json`).then(response => response.json());
     let jobHtml = "";
     let jobTileHtml = "";
     jobData.jobs.forEach(job => {

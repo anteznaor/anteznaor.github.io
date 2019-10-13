@@ -1,241 +1,147 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>	
-<meta charset="utf-8">	
-<title>BraveOrange</title>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
-<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
-<script src="../js/script.js"></script>
-</head>	
+<head>
+    <meta charset="utf-8">
+    <title>BraveOrange</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen"/>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <script src="../js/script.js"></script>
+</head>
 <body>
-	<div id="afdeklaag_sollicitatie">
-		<div id="popup_sollicitatie">
-			<div id="sluit_popup_sollicitatie">x</div>
-			<h2 id="popup_sollicitatie_h2"></h2>	
-			<form action="" method="post">
-				<input type="hidden" id="vacature_naam" name="vacature_naam" value="" />
-				<div id="popup_software_col_links">
-					<label for="naam">Voornaam<span>zodat we weten wie we moeten roepen</span></label>
-					<input type="text" id="naam" name="naam" title="Voornaam" />
-					<label for="email">E-mailadres<span>geen spam, beloofd</span></label>
-					<input type="text" id="email" name="email" title="E-mailadres" />
-					<label for="cv">Upload je CV</label>
-					<input type="file" id="cv" name="cv" title="CV" />
-				</div>
-				<div id="popup_software_col_rechts">
-					<label for="Achternaam">Achternaam<span>altijd handig om te weten</span></label>
-					<input type="text" id="achternaam" name="achternaam" title="Achternaam" />
-					<label for="telefoon">Telefoonnummer<span>incl. netnummer</span></label>
-					<input type="text" id="telefoon" name="telefoon" title="Telefoon" />
-					<label for="motivatie">Motivatie / Certificaat</label>
-					<input type="file" id="motivatie" name="motivatie" title="Motivatie" />
-				</div>
-				<div style="clear:both;height:30px;"></div>
-				<label for="bericht">Bericht<span>hier de mogelijkheid om nog wat extra informatie te verstrekken</span></label>
-				<div style="clear:both;height:0px;"></div>
-				<textarea id="bericht" name="bericht"></textarea>
-				<div style="clear:both;height:0px;"></div>
-				<button title="Versturen" type="submit">Versturen</button>
-			</form>
-			<div style="clear:both;height:50px;"></div>
-			<img src="../images/bo_icon.png" alt="bo_icon" width="42" height="42">
-		</div>
-	</div>
-	
-	<header id="header" >
-		<div id="inner_header">
-			<div id="inner_header_left">	
-				<a id="logo" href="index.html" title="Home - Brave Orange">
-					<img src="../images/logo.png" title="Home - Brave Orange" width="234" height="40" alt="Home - Brave Orange" />
-				</a>
-			</div>
-			<div id="inner_header_right">
-				<div id="mobile_btn">
-					<div class="bar"></div>
-					<div class="bar"></div>
-					<div class="bar"></div>
-				</div>
-				<div id="lang_btn">
-					<a class="active" href="#">NL</a> / <a href="../opdrachten.html">EN</a>
-				</div>
-				<div style="clear:both;height:0px;"></div>
-				<div id="menu_holder">
-					<ul>
-						<li>
-							<a href="index.html" title="Home">Home</a>
-						</li>
-						<li>
-							<a href="over_ons.html" title="Over ons">Over ons</a>
-						</li>
-						<li>
-							<a href="opdrachten.html" title="Opdrachten">Opdrachten</a>
-						</li>
-						<li>
-							<a href="contact.html" title="Contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<div style="clear:both;height:0px;"></div>
-			</div>	
-		</div>	
-	</header>	
-	
-	
-	
-	<section id="vervolg_main">
-		<div id="vervolg_main_inner">
-	
-			<div id="vervolg_content_sb">	
-				<div id="vervolg_content_sb_title">
-					<h2>VACATURES</h2>
-				</div>
-				<div id="vervolg_content_sb_text">
-					<p>
-						BraveOrange is opgericht door ITers voor Iters. Wij werken met beste IT professionals. Onze professionals kennen verschillende werkomgevingen, manieren van werken.
-					</p>
-				</div>
-			</div>
-			<div id="vervolg_content_main">
-				
-				<div id="vacature_single_blok">
-					<div id="vacature_single_blok_inner">
+<div id="afdeklaag_sollicitatie">
+    <div id="popup_sollicitatie">
+        <div id="sluit_popup_sollicitatie">x</div>
+        <h2 id="popup_sollicitatie_h2"></h2>
+        <form action="" method="post">
+            <input type="hidden" id="vacature_naam" name="vacature_naam" value=""/>
+            <div id="popup_software_col_links">
+                <label for="naam">Voornaam<span>zodat we weten wie we moeten roepen</span></label>
+                <input type="text" id="naam" name="naam" title="Voornaam"/>
+                <label for="email">E-mailadres<span>geen spam, beloofd</span></label>
+                <input type="text" id="email" name="email" title="E-mailadres"/>
+                <label for="cv">Upload je CV</label>
+                <input type="file" id="cv" name="cv" title="CV"/>
+            </div>
+            <div id="popup_software_col_rechts">
+                <label for="Achternaam">Achternaam<span>altijd handig om te weten</span></label>
+                <input type="text" id="achternaam" name="achternaam" title="Achternaam"/>
+                <label for="telefoon">Telefoonnummer<span>incl. netnummer</span></label>
+                <input type="text" id="telefoon" name="telefoon" title="Telefoon"/>
+                <label for="motivatie">Motivatie / Certificaat</label>
+                <input type="file" id="motivatie" name="motivatie" title="Motivatie"/>
+            </div>
+            <div style="clear:both;height:30px;"></div>
+            <label for="bericht">Bericht<span>hier de mogelijkheid om nog wat extra informatie te verstrekken</span></label>
+            <div style="clear:both;height:0px;"></div>
+            <textarea id="bericht" name="bericht"></textarea>
+            <div style="clear:both;height:0px;"></div>
+            <button title="Versturen" type="submit">Versturen</button>
+        </form>
+        <div style="clear:both;height:50px;"></div>
+        <img src="../images/bo_icon.png" alt="bo_icon" width="42" height="42">
+    </div>
+</div>
 
-						<div class="vacature_content_blok">
-							<div class="vacature_kop_holder">
-								<h2>NCR R10 (Retalix/StoreLine)</h2>
-								<ul>
-									<li>
-										<i class="fa fa-map-marker"></i> Veghel
-									</li>
-									<li>
-										<i class="fa fa-clock-o"></i> Fulltime
-									</li>
-									<li>
-										<i class="fa fa-money"></i> € 6.500
-									</li>
-								</ul>
-							</div>
-							<div style="clear:both;height:0px;"></div>
-							<div class="vacature_text_holder">
-								<p>POS ervaringen;
-									Pin contact connectie ervaringen;
-									Scripting;
-									Technische basis kennis van POS setups in winkels met vaardigheden zoals: Netwerkkennis,
-									Domeinen, DNS, IP adressen etc.
-									Brug kunnen vormen tussen functionaliteit en de techniek, deze laatste collega’s zitten
-									vaak op afstand
-								</p>
-							</div>
-							
-							<div style="clear:both;height:0px;"></div>
-							
-							<div class="vacature_btn_holder">
-								<a href="mailto:contact@braveorange.nl" data-vacature_naam="Medior java developer gezocht 6" class="vacature_btn_soliciteren">
-									Solliciteer op deze vacature
-								</a>
-								<div class="vacature_btn_terug">
-									Terug naar alle opdrachten
-								</div>
-								<div style="clear:both;height:0px;"></div>
-							</div>
-							<div style="clear:both;height:0px;"></div>
-							<div class="vacature_delen_holder">
-								Deel op sociale media
-								<div style="clear:both;height:20px;"></div>
-								<ul>
-									<li>
-										<a href="https://linkedin.com" title="Deel op Linkedin" target="_blank">
-											<i class="fa fa-linkedin-square"></i>
-										</a>
-									</li>
-									<li>
-										<a href="https://twitter.com" title="Deel op Twitter" target="_blank">
-											<i class="fa fa-twitter"></i>
-										</a>
-									</li>
-									<li>
-										<a href="https://facebook.com" title="Deel op Facebook" target="_blank">
-											<i class="fa fa-facebook-official"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+<header id="header">
+    <div id="inner_header">
+        <div id="inner_header_left">
+            <a id="logo" href="index.html" title="Home - Brave Orange">
+                <img src="../images/logo.png" title="Home - Brave Orange" width="234" height="40"
+                     alt="Home - Brave Orange"/>
+            </a>
+        </div>
+        <div id="inner_header_right">
+            <div id="mobile_btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div id="lang_btn">
+                <a class="active" href="#">NL</a> / <a href="../opdrachten.html">EN</a>
+            </div>
+            <div style="clear:both;height:0px;"></div>
+            <div id="menu_holder">
+                <ul>
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="over_ons.html" title="Over ons">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="opdrachten.html" title="Opdrachten">Opdrachten</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" title="Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear:both;height:0px;"></div>
+        </div>
+    </div>
+</header>
 
-						<div style="clear:both;height:0px;"></div>
-					</div>
-				</div>
-				
+<section id="vervolg_main">
+    <div id="vervolg_main_inner">
+        <div id="vervolg_content_sb">
+            <div id="vervolg_content_sb_title">
+                <h2>VACATURES</h2>
+            </div>
+            <div id="vervolg_content_sb_text">
+                <p>
+                    BraveOrange is opgericht door ITers voor Iters. Wij werken met beste IT professionals. Onze
+                    professionals kennen verschillende werkomgevingen, manieren van werken.
+                </p>
+            </div>
+        </div>
+        <div id="vervolg_content_main">
+            <div id="vacature_single_blok">
+                <div id="vacature_single_blok_inner"></div>
+            </div>
+            <div id="vacature_verzamel_blok">
+                <div id="vacature_verzamel_blok_inner"></div>
+            </div>
+        </div>
+        <div style="clear:both;height:0px;"></div>
+    </div>
+</section>
 
-				<div id="vacature_verzamel_blok">
-					<div id="vacature_verzamel_blok_inner">
-
-						<div class="vacature_item">
-							<div class="vacature_item_inner">
-								<div class="vacature_item_inhoud">
-									<h2>NCR R10 (Retalix/StoreLine)</h2>
-									<ul>
-										<li>
-											<i class="fa fa-map-marker"></i> Veghel
-										</li>
-										<li>
-											<i class="fa fa-clock-o"></i> Fulltime
-										</li>
-										<li>
-											<i class="fa fa-money"></i> € 6.500
-										</li>
-									</ul>
-
-								</div>
-								<div class="vacature_item_label">VACATURE</div>
-							</div>
-						</div>
-
-						<div style="clear:both;height:0px;"></div>
-					</div>
-				</div>
-			</div>
-			<div style="clear:both;height:0px;"></div>
-		</div>
-	</section>
-	
-	
-	
-	
-	<footer id="footer">
-		<div id="footer_inner">
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="over_ons.html">Over ons</a>
-				</li>
-				<li>
-					<a href="opdrachten.html">Opdrachten</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-			<div style="clear:both;height:36px;"></div>
-			<span>&copy 2019 - BraveOrange - all rights reserved</span>
-			<div style="clear:both;height:20px;"></div>
-			<ul id="footer_social">
-				<li>
-					<a title="Volg ons op Facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-				</li>
-				<li>
-					<a title="Volg ons op Twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-				</li>
-				<li>
-					<a title="Volg ons op Instagram" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-</body>	
+<footer id="footer">
+    <div id="footer_inner">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="over_ons.html">Over ons</a>
+            </li>
+            <li>
+                <a href="opdrachten.html">Opdrachten</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <div style="clear:both;height:36px;"></div>
+        <span>&copy 2019 - BraveOrange - all rights reserved</span>
+        <div style="clear:both;height:20px;"></div>
+        <ul id="footer_social">
+            <li>
+                <a title="Volg ons op Facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a title="Volg ons op Twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a title="Volg ons op Instagram" target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="../js/job.js"></script>
+</body>
 </html>
