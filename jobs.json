@@ -1,6 +1,13 @@
 {
   "jobs": [
     {
+      "title": "Senior Front End Developer",
+      "location": "Amsterdam",
+      "type": "Fulltime",
+      "salary": "€ 4.000 - 5.500",
+      "description": "Het High Performance Team van BraveOrange zoekt een Senior front-end developer in de Amsterdam. Je beschikt over HBO werk- en denkniveau en hebt ervaring opgedaan in complexe Agile/Scrum omgevingen. Daarnaast heb je minimaal 4 jaar ervaring met React, Vue.js en/of Angular. Samen met het team werkt je aan verschillende applicaties en ondersteun je het proces niet alleen met jou kennis, maar ook ideeën en oplossingen. BraveOrange staat voor kennis met een track record voor kwaliteit en inhoud. Onze klanten en in-house projecten zijn gericht op het doordenken van nieuwe oplossingen en toepassingen, altijd met de focus op een hoogwaardig en duurzaam resultaat."
+    },
+    {
       "title": "DevOps Engineer",
       "location": "Utrecht, Amsterdam, Den Haag, Rotterdam, Eindhoven, Groningen",
       "type": "Fulltime",
@@ -8,11 +15,11 @@
       "description": "Ben jij de engineer die zowel softwareontwikkeling als infrastructuur aan kan? Dan ben je geschikt voor het High Performance Team van BraveOrange. Wij zijn op zoek naar iemand met een passie voor de hele IT-stack. Dit betekent dat je uitstekende kennis van ten minste één programmeertaal hebt. Daarnaast kun je goed met Linux omgaan en ben je bekend met het inrichten van nieuwe omgevingen. Je hebt kennis van build automation, on-premise en cloud deployments. Ervaring van continous integration (CI) and continous deployment (CD) is een must have."
     },
     {
-      "title": "Senior Front End Developer",
+      "title": "Front End Developer",
       "location": "Regio Utrecht",
       "type": "Fulltime",
-      "salary": "€ 4.000 - 6.500",
-      "description": "Het High Performance Team van BraveOrange zoekt een Senior front-end developer in de regio Utrecht. Samen met het team werkt je aan verschillende applicaties en ondersteun je het proces niet alleen met jou kennis, maar ook ideeën en oplossingen. BraveOrange staat voor kennis met een track record voor kwaliteit en inhoud. Onze klanten en in-house projecten zijn gericht op het doordenken van nieuwe oplossingen en toepassingen, altijd met de focus op een hoogwaardig en duurzaam resultaat."
+      "salary": "€ 3.500 - 4.500",
+      "description": "Het High Performance Team van BraveOrange zoekt een front-end developer in de regio Utrecht. Samen met het team werkt je aan verschillende applicaties en ondersteun je het proces niet alleen met jou kennis, maar ook ideeën en oplossingen. BraveOrange staat voor kennis met een track record voor kwaliteit en inhoud. Onze klanten en in-house projecten zijn gericht op het doordenken van nieuwe oplossingen en toepassingen, altijd met de focus op een hoogwaardig en duurzaam resultaat."
     },
     {
       "title": "Senior .NET developer",
