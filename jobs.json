@@ -15,6 +15,20 @@
       "description": "Ben jij de engineer die zowel softwareontwikkeling als infrastructuur aan kan? Dan ben je geschikt voor het High Performance Team van BraveOrange. Wij zijn op zoek naar iemand met een passie voor de hele IT-stack. Dit betekent dat je uitstekende kennis van ten minste één programmeertaal hebt. Daarnaast kun je goed met Linux omgaan en ben je bekend met het inrichten van nieuwe omgevingen. Je hebt kennis van build automation, on-premise en cloud deployments. Ervaring van continous integration (CI) and continous deployment (CD) is een must have."
     },
     {
+      "title": "Senior SAML Developer",
+      "location": "Den Bosch",
+      "type": "Fulltime",
+      "salary": "max € 5.700",
+      "description": "Het High Performance Team van BraveOrange zoekt een Senior SAML Developer in de regio Den Bosch. Denkrichting van de oplossing: OKTA als portaal, ontsluiting SAAS diensten, maar ook IAAS/PAAS/on premises via Citrix VDI.<ul><li>•\tSenior Developer met SAML kennis</li><li>•\tUitgebreide kennis van authenticatie & security concepten</li><li>•\tErvaring met managed workspace / BYOD concepten & OKTA is een pré</li><li>•\tEigenschappen: zelfredzaam, intrinsiek gemotiveerd, analytisch sterk, teamspeler</li></ul>"
+    },
+    {
+      "title": "Junior OKTA Engineer",
+      "location": "Den Bosch",
+      "type": "Fulltime",
+      "salary": "€ 3.500",
+      "description": "Het High Performance Team van BraveOrange zoekt een Junior OKTA Engineer in de regio Den Bosch. Denkrichting van de oplossing: OKTA als portaal, ontsluiting SAAS diensten, maar ook IAAS/PAAS/on premises via Citrix VDI.<ul><li>•\tJunior engineer</li><li>•\tBasiskennis als technisch wintel engineer</li><li>•\tGeïnteresseerd in Identity oplossingen zoals OKTA</li><li>•\tEigenschappen: zelfredzaam, intrinsiek gemotiveerd, analytisch sterk, teamspeler</li></ul>"
+    },
+    {
       "title": "Front End Developer",
       "location": "Regio Utrecht",
       "type": "Fulltime",
