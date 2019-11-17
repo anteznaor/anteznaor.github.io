@@ -15,26 +15,94 @@
 }
 
 body {
-    background-color: white;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 body .content {
     max-width: 1000px;
     margin: auto;
-    padding: 10px 20px;
-    background-color: rgb(241, 241, 242);
     font-family: "DIN Next LT Pro", serif;
     font-size: 18px;
+    box-shadow: 0 0 10px gray;
+}
+
+section span {
+    text-align: center;
+    margin-left: -40px;
+}
+
+.section1 {
+    background-image: url("../images/cover_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
     text-align: center;
 }
 
-header, footer {
-    margin: 0 -20px;
-    padding: 20px 10px;
-    color: rgb(241, 241, 242);
+.section1 h1 {
+    font-family: "DIN Next LT Pro-Bold", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section1 p {
+    margin: 30px 0;
+}
+
+.section2 {
+    height: 380px;
+    padding: 100px 0;
+}
+
+.section2 .svg {
+    height: 140px;
+    margin: 20px;
+}
+
+.section3 {
     background-color: black;
+    height: 380px;
+    padding: 100px 0;
+}
+
+.section3 .svg {
+    height: 180px;
+    margin: 20px;
+}
+
+.section4 {
+    height: 380px;
+}
+
+.section4 .svg {
+    height: 100px;
+    margin: 20px;
+}
+
+.section5 {
+    margin-top: 200px;
+    height: 600px;
+    text-align: center;
+}
+
+.section5 img {
+    margin-top: -150px;
+    width: 80%;
+}
+
+.section5 h1 {
+    font-family: "DIN Next LT Pro-Bold", serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
 }
 
 footer div {
@@ -47,6 +115,7 @@ footer img {
 }
 
 .synergy {
+    padding: 40px;
     font-family: "DIN Next LT Pro-Bold", serif;
     font-size: 30px;
     letter-spacing: 10px;
@@ -58,7 +127,6 @@ footer img {
 .synergy span {
     color: rgb(241, 241, 242);
 }
-
 
 .synergy span.orange {
     color: #f16324;
@@ -73,63 +141,6 @@ footer img {
     display: inline-block;
 }
 
-main {
-    margin-top: 100px;
-}
-
-main section {
-    margin: 60px 0 40px 0;
-}
-
-main section h1 {
-    font-family: "DIN Next LT Pro-Bold", serif;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-main section p {
-    margin: 30px 0;
-}
-
-img {
-    width: 95%;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-column-gap: 10px;
-}
-
-.grid img {
-    height: 160px;
-    width: 180px;
-}
-
-.grid div span {
-    display: block;
-    margin: 30px 16px;
-    padding: 0 10px;
-}
-
-section.last {
-    text-align: left;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-}
-
-section.contact h1 {
-    font-size: 30px;
-    text-align: left;
-    font-variant-caps: small-caps;
-}
-
-section.contact div {
-    text-align: right;
-    font-size: 14px;
-}
-
 .button {
     background-color: #f16324;
     border: none;
@@ -140,7 +151,7 @@ section.contact div {
     text-decoration: none;
     display: inline-block;
     font-family: "DIN Next LT Pro-Bold", serif;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -148,10 +159,28 @@ section.contact div {
     opacity: 0.8;
 }
 
-hr {
-    margin: 30px 0;
-    border: 0 none;
-    border-top: 2px dashed #322f32;
-    background: none;
-    height: 0;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid img {
+    width: 380px;
+}
+
+.grid div span {
+    display: block;
+    padding: 0 120px;
+    font-size: 22px;
+}
+
+.white {
+    color: whitesmoke;
+}
+
+.orange {
+    background-color: #f16324;
 }
