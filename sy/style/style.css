@@ -115,6 +115,7 @@ footer img {
 }
 
 .synergy {
+    margin-left: 40px;
     padding: 40px;
     font-family: "DIN Next LT Pro-Bold", serif;
     font-size: 30px;
@@ -126,10 +127,6 @@ footer img {
 
 .synergy span {
     color: rgb(241, 241, 242);
-}
-
-.synergy span.orange {
-    color: #f16324;
 }
 
 .synergy::after {
