@@ -4,21 +4,21 @@
       "title": "Senior Front End Developer",
       "location": "Amsterdam",
       "type": "Fulltime",
-      "salary": "€ 4.000 - 5.500",
+      "salary": "€ 5.000 - 6.500",
       "description": "Het High Performance Team van BraveOrange zoekt een Senior front-end developer in de Amsterdam. Je beschikt over HBO werk- en denkniveau en hebt ervaring opgedaan in complexe Agile/Scrum omgevingen. Daarnaast heb je minimaal 4 jaar ervaring met React, Vue.js en/of Angular. Samen met het team werkt je aan verschillende applicaties en ondersteun je het proces niet alleen met jou kennis, maar ook ideeën en oplossingen. BraveOrange staat voor kennis met een track record voor kwaliteit en inhoud. Onze klanten en in-house projecten zijn gericht op het doordenken van nieuwe oplossingen en toepassingen, altijd met de focus op een hoogwaardig en duurzaam resultaat."
     },
     {
       "title": "DevOps Engineer",
       "location": "Utrecht, Amsterdam, Den Haag, Rotterdam, Eindhoven, Groningen",
       "type": "Fulltime",
-      "salary": "€ 4.000 - 6.500",
+      "salary": "€ 5.000 - 7.000",
       "description": "Ben jij de engineer die zowel softwareontwikkeling als infrastructuur aan kan? Dan ben je geschikt voor het High Performance Team van BraveOrange. Wij zijn op zoek naar iemand met een passie voor de hele IT-stack. Dit betekent dat je uitstekende kennis van ten minste één programmeertaal hebt. Daarnaast kun je goed met Linux omgaan en ben je bekend met het inrichten van nieuwe omgevingen. Je hebt kennis van build automation, on-premise en cloud deployments. Ervaring van continous integration (CI) and continous deployment (CD) is een must have."
     },
     {
       "title": "Senior SAML Developer",
       "location": "Den Bosch",
       "type": "Fulltime",
-      "salary": "max € 5.700",
+      "salary": "tot € 5.700",
       "description": "Het High Performance Team van BraveOrange zoekt een Senior SAML Developer in de regio Den Bosch. Denkrichting van de oplossing: OKTA als portaal, ontsluiting SAAS diensten, maar ook IAAS/PAAS/on premises via Citrix VDI.<ul><li>•\tSenior Developer met SAML kennis</li><li>•\tUitgebreide kennis van authenticatie & security concepten</li><li>•\tErvaring met managed workspace / BYOD concepten & OKTA is een pré</li><li>•\tEigenschappen: zelfredzaam, intrinsiek gemotiveerd, analytisch sterk, teamspeler</li></ul>"
     },
     {
@@ -29,7 +29,7 @@
       "description": "Het High Performance Team van BraveOrange zoekt een Junior OKTA Engineer in de regio Den Bosch. Denkrichting van de oplossing: OKTA als portaal, ontsluiting SAAS diensten, maar ook IAAS/PAAS/on premises via Citrix VDI.<ul><li>•\tJunior engineer</li><li>•\tBasiskennis als technisch wintel engineer</li><li>•\tGeïnteresseerd in Identity oplossingen zoals OKTA</li><li>•\tEigenschappen: zelfredzaam, intrinsiek gemotiveerd, analytisch sterk, teamspeler</li></ul>"
     },
     {
-      "title": "Front End Developer",
+      "title": "Medior Front End Developer",
       "location": "Regio Utrecht",
       "type": "Fulltime",
       "salary": "€ 3.500 - 4.500",
@@ -39,15 +39,8 @@
       "title": "Senior .NET developer",
       "location": "Regio Den Bosch",
       "type": "Fulltime",
-      "salary": "€ 4.000 - 6.500",
+      "salary": "€ 5.000 - 7.000",
       "description": ".NET is een van de core technologies van het BraveOrange. Onze teams werken op verschillende locaties en met de meest diverse klanten om de juiste applicaties en oplossingen te bouwen. Bijna altijd werk je samen in teams die veel ervaring meebrengen vanuit de stacks die zij naar een project meenemen. Dit betekend dat er altijd ruimte is om te leren, maar ook jouw rol als Senior .NET Developer op een hoog en vaak complex niveau in te zetten. BraveOrange is opgericht door engineers die vanuit kennis en passie werken en nieuwe uitdagingen aanpakken. Dit betekend dat BraveOrange ook aan eigen software producten werkt, en dat jij met je kennis daar ook deel aan kan nemen."
-    },
-    {
-      "title": "DevFlex Engineer (Senior Java / .NET / DevOps / Full Stack)",
-      "location": "Utrecht, Amsterdam, Den Haag, Rotterdam, Eindhoven, Groningen",
-      "type": "Fulltime",
-      "salary": "€ 6.000 - 12.000",
-      "description": "Ben je al enige tijd werkzaam als IT-consultant en heb je het naar je zin bij de klant? Weet je welk tarief de klant voor je betaalt en wat je aan salaris overhoudt? Voelt het soms dat de beloningconstructie anders kan? Dan willen wij je graag kennis laten maken met het DevFlex model van BraveOrange. Onze medewerkers worden beloond voor het succes dat ze door hun werkzaamheden behalen. Dit betekent dat je 70% van je uurtarief als salaris krijgt uitbetaald. Veelal komt dit neer op een salaris van € 6000 -12000 bruto per maand. Heb je even geen klus, dan krijg je een vergoeding van € 2800 per maand."
     }
   ]
 }
